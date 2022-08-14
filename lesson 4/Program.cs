@@ -45,7 +45,7 @@ namespace Lesson_4
             //логин и пароль возьмем из файла
             StreamReader sr = new StreamReader("login.txt");    //если файл положить в папку Debug, то путь к нему расписывать не нужно
             string LoginFile = sr.ReadLine();    //читаем первую строку файла
-            string PasswordFile = sr.ReadLine();     //читаем вторую строку файла
+            string PasswordFile = sr.ReadLine();     //читаем вторую строку
             sr.Close();    //закрываем файл
 
 
